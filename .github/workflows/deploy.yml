@@ -1,4 +1,4 @@
-name: Deploying to Firebase
+name: Deploy
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: Build For Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -22,7 +22,7 @@ jobs:
           name: dist
           path: dist
   deploy:
-    name: Deploy
+    name: Deploy Job
     needs: build
     runs-on: ubuntu-latest
     steps:
