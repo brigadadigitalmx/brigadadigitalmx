@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage renders correctly 1`] = `
+<main>
+  <img
+    class="logo"
+    src="test-file-stub"
+  />
+  <h1
+    class="center-content"
+  >
+    Sitio en construcción 🚧
+  </h1>
+</main>
+`;
