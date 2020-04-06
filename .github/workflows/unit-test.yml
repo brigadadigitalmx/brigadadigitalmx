@@ -1,0 +1,17 @@
+name: Unit test Job
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+    # Runs a single command using the runners shell
+    - name: Install
+      run: npm install
+    - name: Execute unit test
+      run: npm run test
