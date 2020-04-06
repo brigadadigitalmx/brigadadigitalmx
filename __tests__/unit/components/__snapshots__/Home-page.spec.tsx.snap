@@ -6,8 +6,10 @@ exports[`HomePage renders correctly 1`] = `
     class="logo"
     src="test-file-stub"
   />
-  <p>
+  <h1
+    class="center-content"
+  >
     Sitio en construcción 🚧
-  </p>
+  </h1>
 </main>
 `;
