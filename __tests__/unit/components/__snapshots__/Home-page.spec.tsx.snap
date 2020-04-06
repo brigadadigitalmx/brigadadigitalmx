@@ -11,5 +11,16 @@ exports[`HomePage renders correctly 1`] = `
   >
     Sitio en construcción 🚧
   </h1>
+  <p
+    class="center-content"
+  >
+    Si deseas unite al equipo y colaborar puedes hacerlo en este 
+    <a
+      href="https://forms.gle/3CUo2tuomGHXU6yg9"
+      target="_blank"
+    >
+      formulario 📓
+    </a>
+  </p>
 </main>
 `;
