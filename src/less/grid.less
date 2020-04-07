@@ -1,21 +1,16 @@
 .grid {
   padding: 5px;
-
-  &.collapse {
-    display: block;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
 
   .col {
-    width: 100%;
-    min-height: 100px;
-  }
-}
+    flex-grow: 1;
 
-@media all and (min-width: @mobileBreakpoint) {
-  .grid {
-    &.collapse {
-      display: flex;
-      align-items: center;
+    &.two-spaces {
+      flex-grow: 5;
     }
   }
 }

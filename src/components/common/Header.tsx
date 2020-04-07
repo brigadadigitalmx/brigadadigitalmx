@@ -15,14 +15,20 @@ export const Header = (props: HeaderProps) => {
     <header className={collapse ? 'collapsed' : ''}>
       <Grid classes="content" collapse>
         <Col>
-          <img src={logo} className="logo" />
+          <Link to="/">
+            <img src={logo} className="logo" />
+          </Link>
         </Col>
-        <Col>
+        <Col classes="two-spaces">
           <nav>
-            <Link to="guverments/">Gobiernos</Link>
-            <Link to="volunteers/">Voluntarios</Link>
-            <Link to="projects/">Proyectos</Link>
-            <Link to="sponsors/">Donaciones</Link>
+            <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" target="_blank">
+              Gobiernos
+            </a>
+            <a href="https://forms.gle/3CUo2tuomGHXU6yg9" target="_blank">
+              Voluntarios
+            </a>
+            <Link to="/">Proyectos</Link>
+            <Link to="/">Donaciones</Link>
           </nav>
         </Col>
       </Grid>

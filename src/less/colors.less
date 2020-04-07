@@ -51,9 +51,31 @@ p {
   h2,
   h3,
   span,
-  small,
-  a {
+  small {
     color: @white;
+  }
+
+  a {
+    color: @fluorescentGreen;
+
+    &:hover {
+      color: @fluorescentYellow;
+    }
+  }
+
+  .button {
+    background-color: @white;
+    color: @black;
+
+    &:hover {
+      background-color: @lightGray;
+      color: @black;
+    }
+
+    &:active {
+      background-color: @lightDarkGray;
+      color: @black;
+    }
   }
 }
 
@@ -68,5 +90,18 @@ p {
   small,
   a {
     color: @black;
+  }
+
+  .button {
+    background-color: @black;
+    color: @white;
+
+    &:hover {
+      background-color: @lightBlack;
+    }
+
+    &:active {
+      background-color: @mediumBlueGray;
+    }
   }
 }
