@@ -1,0 +1,22 @@
+header {
+  width: 100%;
+  background-color: @black;
+  padding: 200px 0px 200px 0px;
+  transition: padding 0.4s;
+
+  &.collapsed {
+    padding: 100px 0px 30px 0px;
+  }
+}
+
+.logo {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media all and (min-width: @mobileBreakpoint) {
+  .logo {
+    width: 300px;
+  }
+}

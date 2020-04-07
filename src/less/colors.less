@@ -1,9 +1,11 @@
+@black: #000000;
 @lightBlack: #262626;
 @mediumBlueGray: #2c313a;
 @darkBlue: #21252b;
 @darkBlueGray: #282c34;
 @lightDarkGray: #5c6370;
 @lightGray: #abb2bf;
+@white: #ffffff;
 
 @purple: #c678dd;
 @lightBlue: #61afef;
@@ -20,8 +22,6 @@
 @green: #98c379;
 @fluorescentGreen: #8bc34a;
 
-@white: #ffffff;
-
 .aqua {
   color: @aqua;
 }
@@ -30,8 +30,9 @@
   color: @lightDarkGray;
 }
 
-.white {
-  color: white;
+.white,
+p {
+  color: @white;
 }
 
 .yellow {
@@ -40,4 +41,32 @@
 
 .red {
   background-color: @red;
+}
+
+.dark {
+  background-color: @black;
+
+  p,
+  h1,
+  h2,
+  h3,
+  span,
+  small,
+  a {
+    color: @white;
+  }
+}
+
+.light {
+  background-color: @white;
+
+  p,
+  h1,
+  h2,
+  h3,
+  span,
+  small,
+  a {
+    color: @black;
+  }
 }
