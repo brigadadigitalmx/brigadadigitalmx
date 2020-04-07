@@ -40,26 +40,6 @@ export const HomePage = () => {
           </a>
         </div>
       </PageSection>
-      <PageSection theme="dark padding-bottom-three">
-        <h1 className="cormorant big margin-top-three">Que hacemos?</h1>
-        <p className="margin-top-three">
-          Somos un esfuerzo voluntario y no partidista para ayudar al gobierno federal, estatal y local con tecnología,
-          datos, diseño, operaciones, comunicaciones, gestión de proyectos y más durante la crisis de COVID-19.
-          Brindamos asistencia gratuita a todas las entidades gubernamentales en todo el país; Si podemos ayudar, lo
-          haremos.
-        </p>
-        <p className="margin-top-two">
-          Respuesta digital de EE. UU. Fue fundada por ex CTO adjuntos de EE. UU. Y veteranos experimentados de la
-          industria tecnológica que lideraron las políticas federales de datos abiertos y pusieron en marcha el Servicio
-          Digital de EE. UU.
-        </p>
-        <p className="margin-top-two">
-          Juntos ya hemos obtenido más de 3.000 personas calificadas y calificadas dispuestas a ayudar.
-        </p>
-        <p className="margin-top-two">
-          Obtenga más información sobre los <Link to="/">proyectos</Link>
-        </p>
-      </PageSection>
       <Footer theme="light" classes="padding-top-three" />
     </main>
   );
