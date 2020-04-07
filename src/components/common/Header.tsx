@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import logo from '../../img/logo.png';
 import { Col, Grid } from '../grid';
@@ -28,7 +30,9 @@ export const Header = (props: HeaderProps) => {
               Voluntarios
             </a>
             <Link to="/">Proyectos</Link>
-            <Link to="/">Donaciones</Link>
+            <Link to="/">
+              <FontAwesomeIcon icon={faTwitter} />
+            </Link>
           </nav>
         </Col>
       </Grid>
