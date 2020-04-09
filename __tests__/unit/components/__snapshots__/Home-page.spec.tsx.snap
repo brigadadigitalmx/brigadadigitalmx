@@ -3,7 +3,7 @@
 exports[`HomePage renders correctly 1`] = `
 <main>
   <header
-    class=""
+    class=" "
   >
     <div
       class="grid content collapse"
@@ -25,21 +25,19 @@ exports[`HomePage renders correctly 1`] = `
       >
         <nav>
           <a
-            href="https://forms.gle/cMXrYdXGxQo6QSrw9"
-            target="_blank"
-          >
-            Gobiernos
-          </a>
-          <a
-            href="https://forms.gle/3CUo2tuomGHXU6yg9"
-            target="_blank"
-          >
-            Voluntarios
-          </a>
-          <a
-            href="/"
+            href="/projects"
           >
             Proyectos
+          </a>
+          <a
+            href="/us"
+          >
+            Nosotros
+          </a>
+          <a
+            href="/faqs"
+          >
+            FAQs
           </a>
           <a
             href="/"
@@ -65,17 +63,17 @@ exports[`HomePage renders correctly 1`] = `
     </div>
   </header>
   <section
-    class="page-section light"
+    class="page-section light padding-top-three padding-bottom-three"
   >
     <h1
       class="cormorant big"
     >
-      COVID-19 amenaza con abrumar a los servicios gubernamentales
+      COVID-19 representa un reto de organización y servicios para los gobiernos, y creemos usar herramientas digitales para ayudar.
     </h1>
     <p
       class="big margin-top-three"
     >
-      Estamos ayudando a los gobiernos a encontrar voluntarios en tecnología, comunicaciones y operaciones.
+      Estamos ayudando a entidades de gobierno federal, estatal y municipal durante la crisis de salud pública ocasionada por COVID-19, a través de voluntarios digitales con experiencia en procesamiento de datos, tecnología, comunicaciones y operaciones.
     </p>
     <div
       class="buttons-list margin-top-three"
@@ -97,41 +95,97 @@ exports[`HomePage renders correctly 1`] = `
     </div>
   </section>
   <section
-    class="page-section dark padding-bottom-three"
+    class="page-section dark padding-top-three padding-bottom-three"
   >
     <h1
-      class="cormorant big margin-top-three"
+      class="cormorant big"
     >
-      Que hacemos?
+      Gobiernos
     </h1>
     <p
-      class="margin-top-three"
+      class="big margin-top-three"
     >
-      Somos un esfuerzo voluntario y no partidista para ayudar al gobierno federal, estatal y local con tecnología, datos, diseño, operaciones, comunicaciones, gestión de proyectos y más durante la crisis de COVID-19. Brindamos asistencia gratuita a todas las entidades gubernamentales en todo el país; Si podemos ayudar, lo haremos.
+      Si trabaja en alguna oficina de gobierno y necesita ayuda para superar la crisis de COVID-19, estamos armando una red de voluntarios capacitados en procesamiento de datos, tecnología, comunicaciones y operaciones que puede ayudarlo.
     </p>
     <p
-      class="margin-top-two"
+      class="big margin-top-one"
     >
-      Respuesta digital de EE. UU. Fue fundada por ex CTO adjuntos de EE. UU. Y veteranos experimentados de la industria tecnológica que lideraron las políticas federales de datos abiertos y pusieron en marcha el Servicio Digital de EE. UU.
+      Llene el siguiente formato y nos pondremos en contacto para analizar sus necesidades y encontrar voluntarios que puedan ayudarle:
     </p>
-    <p
-      class="margin-top-two"
+    <div
+      class="buttons-list margin-top-three"
     >
-      Juntos ya hemos obtenido más de 3.000 personas calificadas y calificadas dispuestas a ayudar.
-    </p>
-    <p
-      class="margin-top-two"
-    >
-      Obtenga más información sobre los 
       <a
-        href="/"
+        class="button"
+        href="https://forms.gle/cMXrYdXGxQo6QSrw9"
+        target="_blank"
       >
-        proyectos
+        Gobiernos
       </a>
+    </div>
+  </section>
+  <section
+    class="page-section light padding-top-three padding-bottom-three"
+  >
+    <h1
+      class="cormorant big"
+    >
+      Voluntarios
+    </h1>
+    <p
+      class="big margin-top-three"
+    >
+      Si quieres aportar tu conocimiento y tiempo, estamos aceptando voluntarios con conocimientos y experiencia técnica que los gobiernos necesitan.
     </p>
+    <p
+      class="big"
+    >
+      Necesitamos usuarios con conocimiento en las siguientes áreas:
+    </p>
+    <h2
+      class="margin-top-two"
+    >
+      Tecnología
+    </h2>
+    <p
+      class="big margin-top-one"
+    >
+      Científicos de datos, ingenieros de front-end y back-end, diseñadores, gerentes de ingeniería, gerentes de producto, investigadores de usuarios, escritores.
+    </p>
+    <h2
+      class="margin-top-two"
+    >
+      Políticas Públicas
+    </h2>
+    <p
+      class="big margin-top-one"
+    >
+      Políticas públicas, Epidemiólogos.
+    </p>
+    <h2
+      class="margin-top-two"
+    >
+      Comunicaciones
+    </h2>
+    <p
+      class="big margin-top-one"
+    >
+      Estrategas de contenido, redactores, diseñadores gráficos y gerentes de redes sociales.
+    </p>
+    <div
+      class="buttons-list margin-top-three"
+    >
+      <a
+        class="button"
+        href="https://forms.gle/cMXrYdXGxQo6QSrw9"
+        target="_blank"
+      >
+        Voluntarios
+      </a>
+    </div>
   </section>
   <footer
-    class="padding-top-three light"
+    class="padding-top-three dark"
   >
     <h1>
       Contactanos
