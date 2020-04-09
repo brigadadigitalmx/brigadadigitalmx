@@ -6,11 +6,26 @@ header {
 
   &.collapsed {
     padding: 80px 0px 10px 0px;
+
+    .logo {
+      width: 300px;
+    }
+  }
+
+  &.extra-collapsed {
+    padding: 10px 0px 10px 0px;
   }
 }
 
 .logo {
-  width: 300px;
+  width: 350px;
   display: block;
   margin: 0 auto;
+  transition: width 0.5s;
+}
+
+@media all and (min-width: @mobileBreakpoint) {
+  .logo {
+    width: 400px;
+  }
 }

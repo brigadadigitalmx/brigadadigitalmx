@@ -23,11 +23,19 @@
 @fluorescentGreen: #8bc34a;
 
 .aqua {
-  color: @aqua;
+  color: @aqua !important;
 }
 
 .lightDarkGray {
-  color: @lightDarkGray;
+  color: @lightDarkGray !important;
+}
+
+.lightGray {
+  color: @lightGray !important;
+}
+
+.lightBlack {
+  color: @lightBlack !important;
 }
 
 .white,
@@ -46,13 +54,18 @@ p {
 .dark {
   background-color: @black;
 
-  p,
   h1,
   h2,
   h3,
+  strong,
+  a {
+    color: @white;
+  }
+
+  p,
   span,
   small {
-    color: @white;
+    color: @lightGray;
   }
 
   a {
@@ -82,14 +95,18 @@ p {
 .light {
   background-color: @white;
 
-  p,
   h1,
   h2,
   h3,
-  span,
-  small,
+  strong,
   a {
     color: @black;
+  }
+
+  p,
+  span,
+  small {
+    color: @lightBlack;
   }
 
   .button {

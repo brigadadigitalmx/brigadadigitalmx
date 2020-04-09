@@ -8,13 +8,16 @@ import { Col, Grid } from '../grid';
 
 interface HeaderProps {
   collapse?: boolean;
+  appearance?: string;
 }
 
 export const Header = (props: HeaderProps) => {
-  const { collapse } = props;
+  const { collapse, appearance = '' } = props;
+  const collapseClass = collapse ? 'collapsed' : '';
+  const classes = `${collapseClass} ${appearance}`;
 
   return (
-    <header className={collapse ? 'collapsed' : ''}>
+    <header className={classes}>
       <Grid classes="content" collapse>
         <Col>
           <Link to="/">
@@ -23,13 +26,9 @@ export const Header = (props: HeaderProps) => {
         </Col>
         <Col classes="two-spaces">
           <nav>
-            <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" target="_blank">
-              Gobiernos
-            </a>
-            <a href="https://forms.gle/3CUo2tuomGHXU6yg9" target="_blank">
-              Voluntarios
-            </a>
-            <Link to="/">Proyectos</Link>
+            <Link to="/projects">Proyectos</Link>
+            <Link to="/us">Nosotros</Link>
+            <Link to="/faqs">FAQs</Link>
             <Link to="/">
               <FontAwesomeIcon icon={faTwitter} />
             </Link>
