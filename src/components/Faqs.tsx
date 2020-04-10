@@ -36,6 +36,16 @@ export const Faqs = () => {
             question="¿Quién gestiona el proyecto?"
             answer="Usted y el voluntario son responsables de administrar el proyecto. Lo conectaremos con voluntarios calificados, pero el éxito del proyecto depende de su colaboración directa."
           />
+          <div className="buttons-list margin-top-three">
+            <a
+              href="https://drive.google.com/open?id=1i2-2Q66kvUI_8R9Lr-WQDb_2BK--tHdq8o181zZzGEM"
+              className="button"
+              target="_blank"
+            >
+              {' '}
+              Manifiesto{' '}
+            </a>
+          </div>
         </div>
       </PageSection>
       <PageSection theme="dark" classes="padding-top-three padding-bottom-three">
@@ -85,6 +95,16 @@ export const Faqs = () => {
             question="¿Cuánto durarán los proyectos?"
             answer="Nuestros proyectos tienen diferente naturaleza y variaran en sus tiempos."
           />
+          <div className="buttons-list margin-top-three">
+            <a
+              href="https://drive.google.com/open?id=1i2-2Q66kvUI_8R9Lr-WQDb_2BK--tHdq8o181zZzGEM"
+              className="button"
+              target="_blank"
+            >
+              {' '}
+              Manifiesto{' '}
+            </a>
+          </div>
         </div>
       </PageSection>
       <Footer theme="light" classes="padding-top-three" />

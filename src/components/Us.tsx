@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Header, Footer } from './common';
 import { PageSection } from './sections';
+import logoSociedat from '../img/sociedat.jpg';
 
 export const Us = () => {
   return (
@@ -24,9 +25,10 @@ export const Us = () => {
           <p className="margin-top-one">
             Brigadas Digitales MX es una iniciativa de la Sociedad de Científicos de Datos de México, A.C. creada por un
             grupo de expertos en temas de datos y tecnología para contribuir a la gestión de medidas y soluciones que
-            ayuden durante desastres naturales y crisis humanitarias. Hoy queremos contribuir a combatir la propagación
-            de COVID-19 en todo el país así como ayudar a diseñar medidas y soluciones para enfrentar esta crisis.{' '}
+            ayuden durante desastres y crisis humanitarias. Hoy queremos contribuir a combatir la propagación de
+            COVID-19 en todo el país así como ayudar a diseñar medidas y soluciones para enfrentar esta crisis.{' '}
           </p>
+          <img src={logoSociedat} className="center logo" alt="Sociedat logo" />
         </div>
       </PageSection>
       <Footer theme="dark" classes="padding-top-three" />
