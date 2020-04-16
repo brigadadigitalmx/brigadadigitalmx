@@ -93,7 +93,7 @@ export const Faqs = () => {
           />
           <ListedFaq
             question="¿Cuánto durarán los proyectos?"
-            answer="Nuestros proyectos tienen diferente naturaleza y variaran en sus tiempos."
+            answer="Nuestros proyectos tienen diferente naturaleza y variarán en sus tiempos."
           />
           <div className="buttons-list margin-top-three">
             <a
