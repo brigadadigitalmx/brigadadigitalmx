@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/wp-content/themes/brigadadigitalmx/static/js/main.chunk.js",
+    "main.js.map": "/wp-content/themes/brigadadigitalmx/static/js/main.chunk.js.map",
+    "runtime-main.js": "/wp-content/themes/brigadadigitalmx/static/js/bundle.js",
+    "runtime-main.js.map": "/wp-content/themes/brigadadigitalmx/static/js/bundle.js.map",
+    "static/js/2.chunk.js": "/wp-content/themes/brigadadigitalmx/static/js/2.chunk.js",
+    "static/js/2.chunk.js.map": "/wp-content/themes/brigadadigitalmx/static/js/2.chunk.js.map",
+    "index.php": "/wp-content/themes/brigadadigitalmx/index.php",
+    "precache-manifest.f53f29450b28559c00583d2dd33a3518.js": "/wp-content/themes/brigadadigitalmx/precache-manifest.f53f29450b28559c00583d2dd33a3518.js",
+    "service-worker.js": "/wp-content/themes/brigadadigitalmx/service-worker.js",
+    "static/js/2.chunk.js.LICENSE.txt": "/wp-content/themes/brigadadigitalmx/static/js/2.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/wp-content/themes/brigadadigitalmx/static/media/logo.9893d967.png",
+    "static/media/sociedat.jpg": "/wp-content/themes/brigadadigitalmx/static/media/sociedat.6004b7a7.jpg"
+  },
+  "entrypoints": [
+    "static/js/bundle.js",
+    "static/js/2.chunk.js",
+    "static/js/main.chunk.js"
+  ]
+}
