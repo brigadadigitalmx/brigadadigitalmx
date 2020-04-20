@@ -16,7 +16,7 @@ export const Projects = () => {
           <p className="margin-top-one">
             Si quieres conocer más acerce de nosotros síguenos en{' '}
             <a href="#" target="_blank">
-              @brigadadigitalmx <FontAwesomeIcon icon={faTwitter} />
+              @Brigadas_DigMX x <FontAwesomeIcon icon={faTwitter} />
             </a>
           </p>
         </div>
