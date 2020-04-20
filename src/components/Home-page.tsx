@@ -28,13 +28,12 @@ export const HomePage = () => {
       <Header collapse={collapseHeader} />
       <PageSection theme="light" classes="padding-top-three padding-bottom-three">
         <h1 className="cormorant big">
-          COVID-19 representa un reto de organización y servicios para los gobiernos, y creemos usar herramientas
-          digitales para ayudar.
+          COVID-19 representa un reto al que nuestra sociedad pocas veces se ha enfrentado y creemos que las herramientas
+          digitales pueden contribuir para ayudar y combatir esta pandemia.
         </h1>
         <p className="big margin-top-three">
-          Estamos ayudando a entidades de gobierno federal, estatal y municipal durante la crisis de salud pública
-          ocasionada por COVID-19, a través de voluntarios digitales con experiencia en procesamiento de datos,
-          tecnología, comunicaciones y operaciones.
+          Estamos ayudando a entidades de gobierno federal, estatal y municipal durante la crisis a través de voluntarios 
+          digitales con experiencia en procesamiento de datos, tecnología, comunicaciones y operaciones. 
         </p>
         <div className="buttons-list margin-top-three">
           <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" className="button" target="_blank">
@@ -48,41 +47,43 @@ export const HomePage = () => {
       <PageSection theme="dark" classes="padding-top-three padding-bottom-three">
         <h1 className="cormorant big">Gobiernos</h1>
         <p className="big margin-top-three">
-          Si trabaja en alguna oficina de gobierno y necesita ayuda para superar la crisis de COVID-19, estamos armando
-          una red de voluntarios capacitados en procesamiento de datos, tecnología, comunicaciones y operaciones que
-          puede ayudarlo.
+         Si eres parte de alguna dependencia de gobierno que necesita ayuda para combatir la crisis ocasionada por el COVID-19,
+          estamos construyendo una comunidad de voluntarios. Las capacidades de los voluntarios está enfocada en desde tecnología,
+          comunicaciones y operaciones. ¡Podemos ayudar! 
         </p>
         <p className="big margin-top-one">
-          Llene el siguiente formato y nos pondremos en contacto para analizar sus necesidades y encontrar voluntarios
-          que puedan ayudarle:
+          Para poder ayudarlos necesitamos información, para esto ayúdanos a llenar el siguiente formato
+          (no toma más de 10 minutos). Con esta información podemos comenzar a analizar la situación, 
+          posteriormente estaremos en contacto. 
         </p>
         <div className="buttons-list margin-top-three">
           <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" className="button" target="_blank">
-            Gobiernos
+            Solicita voluntarios
           </a>
         </div>
       </PageSection>
       <PageSection theme="light" classes="padding-top-three padding-bottom-three">
         <h1 className="cormorant big">Voluntarios</h1>
         <p className="big margin-top-three">
-          Si quieres aportar tu conocimiento y tiempo, estamos aceptando voluntarios con conocimientos y experiencia
-          técnica que los gobiernos necesitan.
+          Si quieres aportar tu conocimiento, tiempo y esfuerzo ¡Estamos buscando voluntarios!
         </p>
         <p className="big">Necesitamos usuarios con conocimiento en las siguientes áreas:</p>
         <h2 className="margin-top-two">Tecnología</h2>
         <p className="big margin-top-one">
-          Científicos de datos, ingenieros de front-end y back-end, diseñadores, gerentes de ingeniería, gerentes de
-          producto, investigadores de usuarios, escritores.
+          Científicos de datos, ingenieros de front-end y back-end, diseñadores, gerentes de ingeniería,
+          gerentes de producto, investigadores de usuarios, escritores.
         </p>
         <h2 className="margin-top-two">Políticas Públicas</h2>
-        <p className="big margin-top-one">Políticas públicas, Epidemiólogos.</p>
+        <p className="big margin-top-one">Licenciados/ Maestros en relaciones internacionales, ciencia política,
+          economistas, abogados, reducción a riesgo de desastres.
+        </p>
         <h2 className="margin-top-two">Comunicaciones</h2>
         <p className="big margin-top-one">
           Estrategas de contenido, redactores, diseñadores gráficos y gerentes de redes sociales.
         </p>
         <div className="buttons-list margin-top-three">
           <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" className="button" target="_blank">
-            Voluntarios
+            Inscribete como voluntario
           </a>
         </div>
       </PageSection>
