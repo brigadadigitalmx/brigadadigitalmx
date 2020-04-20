@@ -1,0 +1,16 @@
+.grid {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  .col {
+    flex-grow: 1;
+
+    &.two-spaces {
+      flex-grow: 5;
+    }
+  }
+}

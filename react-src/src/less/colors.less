@@ -1,0 +1,124 @@
+@black: #000000;
+@lightBlack: #262626;
+@mediumBlueGray: #2c313a;
+@darkBlue: #21252b;
+@darkBlueGray: #282c34;
+@lightDarkGray: #5c6370;
+@lightGray: #abb2bf;
+@white: #ffffff;
+
+@purple: #c678dd;
+@lightBlue: #61afef;
+@blue: #0066cc;
+@aqua: #56b6c2;
+@fluorescentBlue: #0c7d9d;
+
+@red: #e06c75;
+
+@yellow: #e5c07b;
+@darkYellow: #987655;
+@fluorescentYellow: #cddc39;
+
+@green: #98c379;
+@fluorescentGreen: #8bc34a;
+
+.aqua {
+  color: @aqua !important;
+}
+
+.lightDarkGray {
+  color: @lightDarkGray !important;
+}
+
+.lightGray {
+  color: @lightGray !important;
+}
+
+.lightBlack {
+  color: @lightBlack !important;
+}
+
+.white,
+p {
+  color: @white;
+}
+
+.yellow {
+  background-color: @fluorescentYellow;
+}
+
+.red {
+  background-color: @red;
+}
+
+.dark {
+  background-color: @black;
+
+  h1,
+  h2,
+  h3,
+  strong,
+  a {
+    color: @white;
+  }
+
+  p,
+  span,
+  small {
+    color: @lightGray;
+  }
+
+  a {
+    color: @fluorescentGreen;
+
+    &:hover {
+      color: @fluorescentYellow;
+    }
+  }
+
+  .button {
+    background-color: @white;
+    color: @black;
+
+    &:hover {
+      background-color: @lightGray;
+      color: @black;
+    }
+
+    &:active {
+      background-color: @lightDarkGray;
+      color: @black;
+    }
+  }
+}
+
+.light {
+  background-color: @white;
+
+  h1,
+  h2,
+  h3,
+  strong,
+  a {
+    color: @black;
+  }
+
+  p,
+  span,
+  small {
+    color: @lightBlack;
+  }
+
+  .button {
+    background-color: @black;
+    color: @white;
+
+    &:hover {
+      background-color: @lightBlack;
+    }
+
+    &:active {
+      background-color: @mediumBlueGray;
+    }
+  }
+}
