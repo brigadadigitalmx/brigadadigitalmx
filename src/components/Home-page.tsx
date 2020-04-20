@@ -58,7 +58,7 @@ export const HomePage = () => {
         </p>
         <div className="buttons-list margin-top-three">
           <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" className="button" target="_blank">
-            Solicita voluntarios
+            Solicita Ayuda
           </a>
         </div>
       </PageSection>
@@ -83,7 +83,7 @@ export const HomePage = () => {
         </p>
         <div className="buttons-list margin-top-three">
           <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" className="button" target="_blank">
-            Inscribete como voluntario
+            Inscribete
           </a>
         </div>
       </PageSection>
