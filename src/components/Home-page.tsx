@@ -36,10 +36,10 @@ export const HomePage = () => {
           digitales con experiencia en procesamiento de datos, tecnología, comunicaciones y operaciones. 
         </p>
         <div className="buttons-list margin-top-three">
-          <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" className="button" target="_blank">
+          <a href="https://forms.gle/QPkMBTPEuE4WzTkv7" className="button" target="_blank">
             Gobiernos
           </a>
-          <a href="https://forms.gle/3CUo2tuomGHXU6yg9" className="button" target="_blank">
+          <a href="https://forms.gle/pEyMsQ7SPT6z6A2V9" className="button" target="_blank">
             Voluntarios
           </a>
         </div>
@@ -55,7 +55,7 @@ export const HomePage = () => {
           Para pode ayudar necesitamos conocer tus necesidades, llena el siguiente formato (no toma más de 10 minutos) y posteriormente estaremos en contacto. 
         </p>
         <div className="buttons-list margin-top-three">
-          <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" className="button" target="_blank">
+          <a href="https://forms.gle/QPkMBTPEuE4WzTkv7" className="button" target="_blank">
             Solicita Ayuda
           </a>
         </div>
@@ -80,7 +80,7 @@ export const HomePage = () => {
           Estrategas de contenido, redactores, diseñadores gráficos y gerentes de redes sociales.
         </p>
         <div className="buttons-list margin-top-three">
-          <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" className="button" target="_blank">
+          <a href="https://forms.gle/pEyMsQ7SPT6z6A2V9" className="button" target="_blank">
             Inscríbete
           </a>
         </div>
