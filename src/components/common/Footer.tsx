@@ -10,7 +10,7 @@ export const Footer = (props: FooterProps) => {
 
   return (
     <footer className={`${classes} ${theme}`}>
-      <h1>Contactanos</h1>
+      <h1>Contáctanos</h1>
       <p>contacto@brigadadigitalmx.org</p>
     </footer>
   );
