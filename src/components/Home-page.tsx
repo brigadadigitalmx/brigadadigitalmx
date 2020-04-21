@@ -48,13 +48,11 @@ export const HomePage = () => {
         <h1 className="cormorant big">Gobiernos</h1>
         <p className="big margin-top-three">
          Si eres parte de alguna dependencia de gobierno que necesita ayuda para combatir la crisis ocasionada por el COVID-19,
-          estamos construyendo una comunidad de voluntarios. Las capacidades de los voluntarios está enfocada en desde tecnología,
+          estamos construyendo una comunidad de voluntarios. Las capacidades de los voluntarios está enfocada en tecnología,
           comunicaciones y operaciones. ¡Podemos ayudar! 
         </p>
         <p className="big margin-top-one">
-          Para poder ayudarlos necesitamos información, para esto ayúdanos a llenar el siguiente formato
-          (no toma más de 10 minutos). Con esta información podemos comenzar a analizar la situación, 
-          posteriormente estaremos en contacto. 
+          Para pode ayudar necesitamos conocer tus necesidades, llena el siguiente formato (no toma más de 10 minutos) y posteriormente estaremos en contacto. 
         </p>
         <div className="buttons-list margin-top-three">
           <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" className="button" target="_blank">
@@ -75,7 +73,7 @@ export const HomePage = () => {
         </p>
         <h2 className="margin-top-two">Políticas Públicas</h2>
         <p className="big margin-top-one">Licenciados/ Maestros en relaciones internacionales, ciencia política,
-          economistas, abogados, reducción a riesgo de desastres.
+          economistas, abogados.
         </p>
         <h2 className="margin-top-two">Comunicaciones</h2>
         <p className="big margin-top-one">
@@ -83,7 +81,7 @@ export const HomePage = () => {
         </p>
         <div className="buttons-list margin-top-three">
           <a href="https://forms.gle/cMXrYdXGxQo6QSrw9" className="button" target="_blank">
-            Inscribete
+            Inscríbete
           </a>
         </div>
       </PageSection>
