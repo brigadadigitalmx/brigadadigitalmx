@@ -15,8 +15,8 @@ export const Projects = () => {
           <p>Estaremos publicando sobre nuestros proyectos conforme vayan avanzando.</p>
           <p className="margin-top-one">
             Si quieres conocer más acerce de nosotros síguenos en{' '}
-            <a href="https://twitter.com/Brigadas_DigMX" target="_blank">
-              @Brigadas_DigMX <FontAwesomeIcon icon={faTwitter} />
+            <a href="https://twitter.com/MxBrigada" target="_blank">
+              @MxBrigada <FontAwesomeIcon icon={faTwitter} />
             </a>
           </p>
         </div>
