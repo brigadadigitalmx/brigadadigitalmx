@@ -87,7 +87,7 @@
         "build": "wptheme-scripts build",
         "start": "wptheme-scripts start",
         "wpbuild": "wptheme-scripts wpbuild",
-        "postwpbuild" : "echo 'gitdir: ../.git/worktrees/brigada-digital-mx' > ../brigada-digital-mx/.git ; cp ../.gitignore ../brigada-digital-mx/",
+        "postwpbuild" : "echo 'gitdir: ../.git/worktrees/brigada-digital-mx' > ../brigada-digital-mx/.git",
         "wpstart": "wptheme-scripts wpstart"
     },
     "eslintConfig": {
