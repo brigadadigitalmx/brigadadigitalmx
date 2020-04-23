@@ -3,4 +3,5 @@
 /*.*
 !/.gitignore
 !/*.md
-/brigada-digital-mx/
+/*
+!/react-src

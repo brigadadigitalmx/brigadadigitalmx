@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { HomePage, Faqs, Us, Projects } from './components';
-
+import {
+  BrowserRouter,
+  Route,
+  Switch,
+} from 'react-router-dom';
+import { HomePage} from './components';
 export default function MainRouter() {
   return (
     <React.StrictMode>
     <BrowserRouter>
     <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/faqs" component={Faqs} />
-        <Route exact path="/us" component={Us} />
-        <Route exact path="/projects" component={Projects} />
+        <Route path="**"
+        render={() => <HomePage />}
+        />
       </Switch>
     </BrowserRouter>
     </React.StrictMode>

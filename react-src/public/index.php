@@ -14,7 +14,6 @@
       name="description"
       content="Página de divulgación de la Brígada Dígital MX"
     />
-    
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -34,9 +33,14 @@
         Learn how to configure a non-root public URL by running `npm run wpbuild`.
     -->
     <title>Brígada Dígital MX</title>
-    <!-- <?php wp_head(); ?> -->
+    <?php wp_head(); ?>
+    <script type="text/javascript">
+      var postID = <?php echo is_front_page() ? get_the_ID() : 'undefined'; ?> ;
+    </script>
+    
+    
 </head>
-    <body>
+    <body onLoad="javascript:var postID = <?php echo get_the_ID(); ?> ">
     <noscript>
         You need to enable JavaScript to run this app.
     </noscript>

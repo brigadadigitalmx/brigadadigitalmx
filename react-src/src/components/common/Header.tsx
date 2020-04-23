@@ -26,8 +26,8 @@ export const Header = (props: HeaderProps) => {
         </Col>
         <Col classes="two-spaces">
           <nav>
-            <Link to="/projects">Proyectos</Link>
-            <Link to="/us">Nosotros</Link>
+            <Link to="/proyectos">Proyectos</Link>
+            <Link to="/nosotros">Nosotros</Link>
             <Link to="/faqs">FAQs</Link>
             <Link to="/">
               <FontAwesomeIcon icon={faTwitter} />
