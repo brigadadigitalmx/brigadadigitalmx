@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wp-content/themes/brigadadigitalmx/precache-manifest.f53f29450b28559c00583d2dd33a3518.js"
+  "/wp-content/themes/brigadadigitalmx/precache-manifest.acaa2b5b1a56ec6fa7a94ee8fb8c9be2.js"
 );
 
 self.addEventListener('message', (event) => {
